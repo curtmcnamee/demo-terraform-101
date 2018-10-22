@@ -49,7 +49,7 @@ resource "aws_instance" "web" {
   }
 
   connection {
-    user        = "ubuntu"
+    user        = "ubuntu1"
     private_key = "${var.private_key}"
   }
 
